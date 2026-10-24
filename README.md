@@ -21,6 +21,12 @@
 
 Her föy; bir **Kavram** özeti, makineye özel şema/varlık listesi, numaralı **Görev** soruları ve örnek cevaplar (mavi) içerir.
 
+## Canlı Föyler
+
+🔗 **https://beyda-kizildag.github.io/yazilim-muhendisligi-guncel-konular-beyda-kizildag/**
+
+(GitHub Pages ile yayınlanır — indirmeden tarayıcıda açılır.)
+
 ## Görüntüleme
 
 - `index.html` dosyasını bir tarayıcıda aç — beş föy tek sayfada, A4 baskıya uygun.
