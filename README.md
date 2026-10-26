@@ -21,6 +21,8 @@
 
 Her föy; bir **Kavram** özeti, makineye özel şema/varlık listesi, numaralı **Görev** soruları ve örnek cevaplar (mavi) içerir.
 
+**Ek — SWOT Analizi:** Makinenin siber güvenlik duruşu dört pencerede özetlenir — Güçlü Yönler (S), Zayıf Yönler (W), Fırsatlar (O), Tehditler (T).
+
 ## Canlı Föyler
 
 🔗 **https://beyda-kizildag.github.io/yazilim-muhendisligi-guncel-konular-beyda-kizildag/**

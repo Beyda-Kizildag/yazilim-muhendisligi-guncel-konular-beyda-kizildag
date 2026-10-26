@@ -173,6 +173,18 @@ tr.tall td{height:40px}
   .band-inner{gap:12px; flex-wrap:wrap}
   .band .pill{order:3; flex-basis:100%; text-align:center}
 }
+.swot{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin:14px clamp(20px,4.2vw,40px) 2px}
+.quad{border-radius:8px; padding:15px 16px; min-width:0}
+.quad h4{margin:0 0 10px; font-family:var(--serif); font-size:15px; display:flex; align-items:center; gap:9px}
+.quad .tag{flex:0 0 auto; font-size:12px; font-weight:700; color:#fff; width:23px; height:23px; border-radius:5px; display:grid; place-items:center}
+.quad ul{margin:0; padding-left:17px; font-size:12.3px; line-height:1.5; color:#33404b}
+.quad ul li{margin-bottom:5px}
+.quad.s{background:#edf7f4; border-left:4px solid var(--teal)} .quad.s .tag{background:var(--teal)} .quad.s h4{color:#0f6f63}
+.quad.w{background:#fbeeea; border-left:4px solid var(--red)} .quad.w .tag{background:var(--red)} .quad.w h4{color:#9e2f22}
+.quad.o{background:#eef2f9; border-left:4px solid #2a5fa6} .quad.o .tag{background:#2a5fa6} .quad.o h4{color:#214e87}
+.quad.t{background:#fdf4e2; border-left:4px solid var(--gold)} .quad.t .tag{background:var(--gold)} .quad.t h4{color:#8a6410}
+@media(max-width:540px){.swot{grid-template-columns:1fr}}
+
 @media print{
   body{background:#fff; padding:0}
   .wrap{gap:0}
@@ -218,6 +230,11 @@ tr.tall td{height:40px}
           <span class="cv-badge gold"><svg viewBox="0 0 24 24"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M4 7.5l8 4.5 8-4.5M12 12v9"/></svg></span>
           <span class="cv-name"><b>LAB 5</b> · SBOM / CVE / Patch</span>
           <span class="cv-out">Çıktı: Vulnerability Decision</span>
+        </div>
+        <div class="cv-item">
+          <span class="cv-badge navy"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="6.5" height="6.5" rx="1.3"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.3"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.3"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.3"/></svg></span>
+          <span class="cv-name"><b>EK</b> · SWOT Analizi</span>
+          <span class="cv-out">Çıktı: Güvenlik Duruşu</span>
         </div>
       </div>
 
@@ -277,7 +294,7 @@ tr.tall td{height:40px}
     </ol>
 
     <div class="evi"><svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M9.5 12h6M9.5 15.5h6"/></svg><span>Bu föyün çıktısı <b>Safety Function Map</b> → Evidence Pack <b>EP 03 Safety Functions</b> başlığına oturur.</span></div>
-    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>2 / 6</span></footer>
+    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>2 / 7</span></footer>
   </section>
 
   <!-- ===================== LAB 2 ===================== -->
@@ -333,7 +350,7 @@ tr.tall td{height:40px}
     </div>
 
     <div class="evi"><svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M9.5 12h6M9.5 15.5h6"/></svg><span>Bu föyün çıktısı <b>Zone / Conduit Diagram</b> → Evidence Pack <b>EP 05 Zone &amp; Conduit</b> başlığına oturur.</span></div>
-    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>3 / 6</span></footer>
+    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>3 / 7</span></footer>
   </section>
 
   <!-- ===================== LAB 3 ===================== -->
@@ -381,7 +398,7 @@ tr.tall td{height:40px}
     <div class="goldrule"><b>Altın kural:</b> Zincir "veri çalındı" ile bitiyorsa emniyet bulgusu değildir — bir adım daha gidin: bu, hattaki/makinedeki insana ne yapar?</div>
 
     <div class="evi"><svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M9.5 12h6M9.5 15.5h6"/></svg><span>Bu föyün çıktısı <b>Risk Register</b> → Evidence Pack <b>EP 04 Risk Assessment</b> başlığına oturur.</span></div>
-    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>4 / 6</span></footer>
+    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>4 / 7</span></footer>
   </section>
 
   <!-- ===================== LAB 4 ===================== -->
@@ -435,7 +452,7 @@ tr.tall td{height:40px}
     <p class="note">Tarafsızlık notu: Bu föy çözüm tasarlatmaz; gereksinimi tanımlatır. Tasarım kararı firmanızındır.</p>
 
     <div class="evi"><svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M9.5 12h6M9.5 15.5h6"/></svg><span>Bu föyün çıktısı <b>Secure Architecture</b> → Evidence Pack <b>EP 02 + EP 06</b> başlığına oturur.</span></div>
-    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>5 / 6</span></footer>
+    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>5 / 7</span></footer>
   </section>
 
   <!-- ===================== LAB 5 ===================== -->
@@ -482,7 +499,62 @@ tr.tall td{height:40px}
     </ol>
 
     <div class="evi"><svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M9.5 12h6M9.5 15.5h6"/></svg><span>Bu föyün çıktısı <b>Vulnerability Decision</b> → Evidence Pack <b>EP 09 · 10 · 11</b> başlığına oturur.</span></div>
-    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>6 / 6</span></footer>
+    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>6 / 7</span></footer>
+  </section>
+
+  <!-- ===================== EK · SWOT ===================== -->
+  <section class="sheet" style="--accent:var(--navy-accent)">
+    <header class="band">
+      <div class="band-inner">
+        <span class="band-ico"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="6.5" height="6.5" rx="1.3"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.3"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.3"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.3"/></svg></span>
+        <span class="band-txt">
+          <span class="eyebrow">EK · MAKİNE SÜRÜMÜ · <span class="low">ORİTEQ BC410 PRO</span></span>
+          <h2>SWOT Analizi</h2>
+        </span>
+        <span class="pill">Siber Güvenlik Duruşu</span>
+      </div>
+    </header>
+
+    <div class="fields">
+      <span class="field"><b>Ad Soyad</b><i>Beyda Kızıldağ</i></span>
+      <span class="field"><b>Grup</b><i>Gündüz 4B</i></span>
+      <span class="field"><b>Tarih</b><i>23/10/2026</i></span>
+    </div>
+
+    <div class="concept" style="--accent:var(--navy-accent)"><b style="color:var(--navy-accent)">Kavram:</b> SWOT, makinenin siber güvenlik duruşunu dört pencerede özetler: <b style="color:var(--navy-accent)">S / W</b> iç faktörler (tasarımın kendi güçlü/zayıf yanları), <b style="color:var(--navy-accent)">O / T</b> dış faktörler (çevreden gelen fırsat/tehdit). Amaç, önceki labların bulgularını tek sayfada stratejik bir resme oturtmaktır.</div>
+
+    <div class="swot">
+      <div class="quad s"><h4><span class="tag">S</span> Güçlü Yönler</h4><ul>
+        <li>Ayrı ve bağımsız safety yolu (E-stop → Safety PLC → STO) — siber olaydan etkilenmeden insanı korur</li>
+        <li>Donanımsal E-stop ve kapak kilitleri — yazılımdan bağımsız koruma katmanı</li>
+        <li>PLC/HMI tabanlı modern kontrol → merkezi izleme ve loglama imkânı</li>
+        <li>Standart endüstriyel bileşenler → bilinen sertleştirme ve yama pratikleri uygulanabilir</li>
+      </ul></div>
+      <div class="quad w"><h4><span class="tag">W</span> Zayıf Yönler</h4><ul>
+        <li>Uzak servis/bakım erişimi sertleştirilmezse tek zayıf nokta olabilir</li>
+        <li>Varsayılan parola / paylaşılan hesap kullanımı izlenebilirliği düşürür</li>
+        <li>Ağ segmentasyonu (zone/conduit) tasarlanmazsa IT↔OT geçişi kolaylaşır</li>
+        <li>Bileşen envanteri (SBOM) tutulmazsa yama kararları zorlaşır</li>
+        <li>OT'de yama pencereleri dar → güncellemeler gecikebilir</li>
+      </ul></div>
+      <div class="quad o"><h4><span class="tag">O</span> Fırsatlar</h4><ul>
+        <li>IEC 62443 / makine siber güvenliği uyumu → pazar ve ihale avantajı</li>
+        <li>CRA (Cyber Resilience Act) gibi düzenlemeler güvenli-tasarım talebini artırıyor</li>
+        <li>AIMSAD / SAMIB üzerinden sektörel farkındalık ve iş birliği</li>
+        <li>Güvenli uzak bakım → servis hızını artırma ve maliyet düşürme</li>
+      </ul></div>
+      <div class="quad t"><h4><span class="tag">T</span> Tehditler</h4><ul>
+        <li>Yetkisiz uzak erişim / kimlik avı yoluyla OT ağına sızma riski</li>
+        <li>Fidye yazılımı kaynaklı üretim duruşu</li>
+        <li>Tedarik zinciri ve firmware bileşen zafiyetleri (CVE)</li>
+        <li>Düzenleyici uyumsuzluk → pazar erişimi / yaptırım riski</li>
+        <li>Nitelikli OT güvenlik personeli eksikliği</li>
+      </ul></div>
+    </div>
+    <p class="note">İç faktörler: S · W &nbsp;|&nbsp; Dış faktörler: O · T. Öncelik: güçlü yanı (ayrı/bağımsız safety yolu) korurken, en kritik zayıflıklar olan <b>uzak erişim sertleştirme</b> ve <b>ağ segmentasyonu</b> önce kapatılmalı.</p>
+
+    <div class="evi"><svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M9.5 12h6M9.5 15.5h6"/></svg><span>Bu analizin çıktısı <b>Security Posture (SWOT)</b> → Evidence Pack <b>EP 01 Genel Değerlendirme</b> başlığına oturur.</span></div>
+    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>7 / 7</span></footer>
   </section>
 
 </div>
