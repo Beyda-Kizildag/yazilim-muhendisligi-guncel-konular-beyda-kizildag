@@ -1,6 +1,6 @@
 # ORİTEQ BC410 PRO — Siber Güvenlik Laboratuvar Föyleri
 
-**Safety 4.0 Bootcamp** kapsamında hazırlanan, bir **kutu kapama (koli bantlama) makinesi** üzerinden işlenen ilk 5 laboratuvar föyü.
+**Safety 4.0 Bootcamp** kapsamında hazırlanan, bir **kutu kapama (koli bantlama) makinesi** üzerinden işlenen 7 laboratuvar föyü.
 
 - **Örnek makine (vaka):** Orimak Makina — **ORİTEQ BC410 PRO** Kutu Kapama Makinesi
 - **Çerçeve:** İzinli / **varsayımsal** lab senaryosu — makine yalnızca eğitim amaçlı bir vaka incelemesi olarak kullanılmıştır
@@ -18,6 +18,8 @@
 | 3 | **Threat & Risk + Risk Matrix** | Risk Register |
 | 4 | **Secure Remote Access** | Secure Architecture |
 | 5 | **SBOM / CVE / Patch** | Vulnerability Decision |
+| 6 | **CRA Incident Simulation** | Incident Workflow |
+| 7 | **AI Safety Challenge** | AI Fail-Safe Decision |
 
 Her föy; bir **Kavram** özeti, makineye özel şema/varlık listesi, numaralı **Görev** soruları ve örnek cevaplar (mavi) içerir.
 

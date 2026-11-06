@@ -10,7 +10,7 @@
   --paper:#ffffff; --panel:#eef1f4; --panel-2:#f6f8fa;
   --line:#d6dce2; --rule:#e4e9ee;
   --teal:#179184; --red:#c0392b; --gold:#c0891c; --navy-accent:#1d2b3a;
-  --pen:#1746a6;
+  --pen:#1746a6; --purple:#6b4f9e;
   --k-crit:#c0392b; --k-high:#e07a2b; --k-med:#d4a017; --k-low:#8a97a3;
   --serif:"Spectral", Georgia, "Times New Roman", serif;
   --sans:"IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
@@ -161,7 +161,7 @@ tr.tall td{height:40px}
 .cv-item:last-child{border-bottom:1px solid rgba(255,255,255,.12)}
 .cv-badge{flex:0 0 auto; width:38px; height:38px; border-radius:50%; display:grid; place-items:center}
 .cv-badge svg{width:19px; height:19px; stroke:#fff; fill:none; stroke-width:1.7}
-.cv-badge.teal{background:var(--teal)} .cv-badge.red{background:var(--red)} .cv-badge.gold{background:var(--gold)} .cv-badge.navy{background:#33475a}
+.cv-badge.teal{background:var(--teal)} .cv-badge.red{background:var(--red)} .cv-badge.gold{background:var(--gold)} .cv-badge.navy{background:#33475a} .cv-badge.purple{background:var(--purple)}
 .cv-name{flex:1 1 auto; min-width:0; font-weight:600; font-size:15px}
 .cv-name b{font-weight:700}
 .cv-out{flex:0 0 auto; font-size:12px; color:rgba(255,255,255,.62)}
@@ -232,6 +232,16 @@ tr.tall td{height:40px}
           <span class="cv-out">Çıktı: Vulnerability Decision</span>
         </div>
         <div class="cv-item">
+          <span class="cv-badge red"><svg viewBox="0 0 24 24"><path d="M3 12h4l2.5-7 4 14 2.5-7H21"/></svg></span>
+          <span class="cv-name"><b>LAB 6</b> · CRA Incident Simulation</span>
+          <span class="cv-out">Çıktı: Incident Workflow</span>
+        </div>
+        <div class="cv-item">
+          <span class="cv-badge purple"><svg viewBox="0 0 24 24"><rect x="6.5" y="6.5" width="11" height="11" rx="2"/><rect x="9.5" y="9.5" width="5" height="5" rx="1"/><path d="M9.5 3v3.5M14.5 3v3.5M9.5 17.5V21M14.5 17.5V21M3 9.5h3.5M3 14.5h3.5M17.5 9.5H21M17.5 14.5H21"/></svg></span>
+          <span class="cv-name"><b>LAB 7</b> · AI Safety Challenge</span>
+          <span class="cv-out">Çıktı: AI Fail-Safe Decision</span>
+        </div>
+        <div class="cv-item">
           <span class="cv-badge navy"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="6.5" height="6.5" rx="1.3"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.3"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.3"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.3"/></svg></span>
           <span class="cv-name"><b>EK</b> · SWOT Analizi</span>
           <span class="cv-out">Çıktı: Güvenlik Duruşu</span>
@@ -294,7 +304,7 @@ tr.tall td{height:40px}
     </ol>
 
     <div class="evi"><svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M9.5 12h6M9.5 15.5h6"/></svg><span>Bu föyün çıktısı <b>Safety Function Map</b> → Evidence Pack <b>EP 03 Safety Functions</b> başlığına oturur.</span></div>
-    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>2 / 7</span></footer>
+    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>2 / 9</span></footer>
   </section>
 
   <!-- ===================== LAB 2 ===================== -->
@@ -350,7 +360,7 @@ tr.tall td{height:40px}
     </div>
 
     <div class="evi"><svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M9.5 12h6M9.5 15.5h6"/></svg><span>Bu föyün çıktısı <b>Zone / Conduit Diagram</b> → Evidence Pack <b>EP 05 Zone &amp; Conduit</b> başlığına oturur.</span></div>
-    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>3 / 7</span></footer>
+    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>3 / 9</span></footer>
   </section>
 
   <!-- ===================== LAB 3 ===================== -->
@@ -398,7 +408,7 @@ tr.tall td{height:40px}
     <div class="goldrule"><b>Altın kural:</b> Zincir "veri çalındı" ile bitiyorsa emniyet bulgusu değildir — bir adım daha gidin: bu, hattaki/makinedeki insana ne yapar?</div>
 
     <div class="evi"><svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M9.5 12h6M9.5 15.5h6"/></svg><span>Bu föyün çıktısı <b>Risk Register</b> → Evidence Pack <b>EP 04 Risk Assessment</b> başlığına oturur.</span></div>
-    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>4 / 7</span></footer>
+    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>4 / 9</span></footer>
   </section>
 
   <!-- ===================== LAB 4 ===================== -->
@@ -452,7 +462,7 @@ tr.tall td{height:40px}
     <p class="note">Tarafsızlık notu: Bu föy çözüm tasarlatmaz; gereksinimi tanımlatır. Tasarım kararı firmanızındır.</p>
 
     <div class="evi"><svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M9.5 12h6M9.5 15.5h6"/></svg><span>Bu föyün çıktısı <b>Secure Architecture</b> → Evidence Pack <b>EP 02 + EP 06</b> başlığına oturur.</span></div>
-    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>5 / 7</span></footer>
+    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>5 / 9</span></footer>
   </section>
 
   <!-- ===================== LAB 5 ===================== -->
@@ -499,7 +509,99 @@ tr.tall td{height:40px}
     </ol>
 
     <div class="evi"><svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M9.5 12h6M9.5 15.5h6"/></svg><span>Bu föyün çıktısı <b>Vulnerability Decision</b> → Evidence Pack <b>EP 09 · 10 · 11</b> başlığına oturur.</span></div>
-    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>6 / 7</span></footer>
+    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>6 / 9</span></footer>
+  </section>
+
+  <!-- ===================== LAB 6 ===================== -->
+  <section class="sheet" style="--accent:var(--red)">
+    <header class="band">
+      <div class="band-inner">
+        <span class="band-ico"><svg viewBox="0 0 24 24"><path d="M3 12h4l2.5-7 4 14 2.5-7H21"/></svg></span>
+        <span class="band-txt">
+          <span class="eyebrow">LABORATUVAR 6 · MAKİNE SÜRÜMÜ · <span class="low">ORİTEQ BC410 PRO</span></span>
+          <h2>CRA Incident Simulation</h2>
+        </span>
+        <span class="pill">Çıktı: Incident Workflow</span>
+      </div>
+    </header>
+
+    <div class="fields">
+      <span class="field"><b>Ad Soyad</b><i>Beyda Kızıldağ</i></span>
+      <span class="field"><b>Grup</b><i>Gündüz 4B</i></span>
+      <span class="field"><b>Tarih</b><i>23/10/2026</i></span>
+    </div>
+
+    <div class="rednote"><b>Senaryo:</b> Saat <b>10:15</b>. Uzak servis (bakım) hesabında yetkisiz erişim tespit edildi. Kutu kapama hattının PLC konfigürasyonu değişmiş olabilir. Makine hâlâ çalışıyor. Vardiya sorumlusu sizsiniz.</div>
+
+    <div class="concept"><b>Kavram:</b> Bir olayda en değerli iki şey <span class="kw">zaman</span> ve <span class="kw">kanıt</span>tır. CRA'nın 24 saat / 72 saat / 14 gün yükümlülükleri, iyi bir müdahale akışının doğal kilometre taşlarıdır — ezber değil.</div>
+
+    <h3 class="sec">Görev — zaman çizgisini doldurun</h3>
+    <ol class="tasks">
+      <li><span class="num">1</span><div class="q"><div class="ask"><b>10:15 — ilk 15 dk:</b> Kimi ararsınız? İlk üç eyleminiz?</div><div class="ans">Bakım/OT sorumlusu, bilgi güvenliği (olay müdahale) ekibi ve üretim müdürü aranır. İlk üç eylem: (1) operatörleri makineden uzaklaştırıp kontrollü durdurma kararı ver, (2) şüpheli uzak servis bağlantısını kes, (3) saati ve gözlemleri yazılı kaydet. Hiçbir şey resetlenmez.</div></div></li>
+      <li><span class="num">2</span><div class="q"><div class="ask"><b>İlk 2 saat:</b> Emniyet güvende mi? Neyi korursunuz (kanıt!)? Hangi hesap kapatılır?</div><div class="ans">Önce emniyet: E-stop, kapak kilitleri ve STO fonksiyonel testle doğrulanır; şüphe varsa makine güvenli durumda bekletilir. Kanıt: PLC/HMI olay logları, değişmiş konfigürasyonun kopyası, firewall/VPN erişim kayıtları üzerine yazılmadan alınır. Kapatılan: ele geçen servis hesabı ve tüm paylaşılan hesaplar; parolalar yenilenir.</div></div></li>
+      <li><span class="num">3</span><div class="q"><div class="ask"><b>24 saat — CRA erken uyarı:</b> Hangi bilgi hazır olmalı?</div><div class="ans">Olayın ne zaman ve nasıl fark edildiği, etkilenen ürün/sistem (BC410 PRO hattı, PLC), aktif istismar şüphesi olup olmadığı, ilk etki tahmini ve alınan ilk önlemler. Kesin kök neden bu aşamada beklenmez.</div></div></li>
+      <li><span class="num">4</span><div class="q"><div class="ask"><b>72 saat — CRA bildirim:</b> Kök neden, etki, önlem — kim ne yapıyor?</div><div class="ans">Bilgi güvenliği ekibi kök nedeni (ör. sertleştirilmemiş uzak erişim) ve etkinin kapsamını raporlar; bakım/OT ekibi düzeltici önlemleri (MFA, jump server, segmentasyon) uygular; üretim müdürü ve hukuk/uyum birimi bildirimi onaylayıp gönderir.</div></div></li>
+      <li><span class="num">5</span><div class="q"><div class="ask"><b>14 gün — son rapor:</b> Hangi loglar/kayıtlar korunmuş olmalı?</div><div class="ans">Uzak erişim ve kimlik doğrulama logları, PLC/HMI değişiklik ve alarm kayıtları, firewall/ağ trafiği kayıtları, olay öncesi ve sonrası konfigürasyon yedekleri ile müdahale zaman çizelgesi; hepsi değiştirilmeden, kimin teslim aldığı belli olacak şekilde (delil zinciri) saklanır.</div></div></li>
+    </ol>
+
+    <div class="rednote"><b>En sık hata:</b> "Resetleyip devam edelim" — o düğme, kanıtı sonsuza dek siler. Önce emniyet, hemen sonra kanıt.</div>
+
+    <div class="evi"><svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M9.5 12h6M9.5 15.5h6"/></svg><span>Bu föyün çıktısı <b>Incident Workflow</b> → Evidence Pack <b>EP 13 Incident Response</b> başlığına oturur.</span></div>
+    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>7 / 9</span></footer>
+  </section>
+
+  <!-- ===================== LAB 7 ===================== -->
+  <section class="sheet" style="--accent:var(--purple)">
+    <header class="band">
+      <div class="band-inner">
+        <span class="band-ico"><svg viewBox="0 0 24 24"><rect x="6.5" y="6.5" width="11" height="11" rx="2"/><rect x="9.5" y="9.5" width="5" height="5" rx="1"/><path d="M9.5 3v3.5M14.5 3v3.5M9.5 17.5V21M14.5 17.5V21M3 9.5h3.5M3 14.5h3.5M17.5 9.5H21M17.5 14.5H21"/></svg></span>
+        <span class="band-txt">
+          <span class="eyebrow">LABORATUVAR 7 · MAKİNE SÜRÜMÜ · <span class="low">ORİTEQ BC410 PRO</span></span>
+          <h2>AI Safety Challenge</h2>
+        </span>
+        <span class="pill">Çıktı: AI Fail-Safe Decision</span>
+      </div>
+    </header>
+
+    <div class="fields">
+      <span class="field"><b>Ad Soyad</b><i>Beyda Kızıldağ</i></span>
+      <span class="field"><b>Grup</b><i>Gündüz 4B</i></span>
+      <span class="field"><b>Tarih</b><i>23/10/2026</i></span>
+    </div>
+
+    <div class="concept"><b>Kavram — Prediction ≠ Safety:</b> Yapay zekâ bir karar üretir; güvenliği garanti eden mimari YZ'nin <span class="kw">dışında</span> tanımlanmalıdır. Araçlar: fail-safe · human override · monitoring · confidence threshold · fallback. <span style="color:var(--muted)">(Senaryo: hatta varsayımsal bir kamera + YZ ile bant/kapak kalite muayenesi eklenmiştir.)</span></div>
+
+    <div class="flow">
+      <div class="row">
+        <span class="box teal">Kamera<small>bant / kapak muayene</small></span><span class="arrow">→</span>
+        <span class="box orange">YZ Modeli</span><span class="arrow">→</span>
+        <span class="box">OK / RED</span><span class="arrow">→</span>
+        <span class="box">Parametre</span><span class="arrow">→</span>
+        <span class="box navy">Reddetme Kolu</span>
+      </div>
+    </div>
+
+    <h3 class="sec">Görev — üç başarısızlıkta güvenli davranış</h3>
+    <ol class="tasks">
+      <li><span class="num">1</span><div class="q"><div class="ask"><b>Model yanlış sınıflandırdı:</b> Bandı eksik/açık kalmış bir kutuya OK verdi. Sistem ne yapmalı? İkinci kontrol / insan onayı var mı?</div><div class="ans">Tek modele güvenilmez: hat sonunda bağımsız ikinci kontrol (ör. bant varlık sensörü veya ağırlık kontrolü) olmalı ve iki kontrol çelişirse kutu reddedilir. Vardiyada periyodik insan örneklemesi ile modelin hata oranı izlenir.</div></div></li>
+      <li><span class="num">2</span><div class="q"><div class="ask"><b>Girdi manipüle edildi:</b> Kamera verisi bozuk/sahte. Nasıl fark edilir? Şüpheli girdide ne yapılır?</div><div class="ans">Fark etme: görüntü kalitesi, aydınlatma ve zaman damgası kontrolleri; donmuş/tekrarlayan kare tespiti; kamera bağlantısının bütünlük izlemesi. Şüpheli girdide model kararı kullanılmaz, kutular reddedilir veya hat durdurulup operatöre alarm verilir.</div></div></li>
+      <li><span class="num">3</span><div class="q"><div class="ask"><b>Confidence düştü:</b> Model "emin değilim" diyor. Eşik ne olmalı? Altında: dur / insana sor / fallback?</div><div class="ans">Eşik, yanlış OK'nin maliyetine göre doğrulama verisiyle belirlenir (ör. %95). Altında kutu otomatik OK almaz; insan kontrol istasyonuna yönlendirilir. Düşük güvenli kararlar sıklaşırsa hat durdurulup model incelenir.</div></div></li>
+    </ol>
+
+    <h3 class="sec">Karar tablosu — AI Fail-Safe Decision</h3>
+    <div class="tbl">
+      <table>
+        <thead><tr><th style="width:34%">Başarısızlık</th><th>Tanımladığınız güvenli davranış (hangi kavramla?)</th></tr></thead>
+        <tbody>
+          <tr><td class="k">Model yanlış sınıflandırdı</td><td class="af">Bağımsız ikinci kontrol; çelişkide kutu reddedilir — <b style="color:var(--pen)">fail-safe + human override</b></td></tr>
+          <tr><td class="k">Girdi manipüle edildi</td><td class="af">Girdi bütünlüğü izlenir; şüphede model devre dışı, reddet/durdur — <b style="color:var(--pen)">monitoring + fallback</b></td></tr>
+          <tr><td class="k">Confidence düştü</td><td class="af">Eşik altında otomatik OK yok, insana yönlendir — <b style="color:var(--pen)">confidence threshold + human override</b></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="evi"><svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M9.5 12h6M9.5 15.5h6"/></svg><span>Bu föyün çıktısı <b>AI Fail-Safe Decision</b> → Evidence Pack <b>EP 03 + EP 15</b> başlığına oturur.</span></div>
+    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>8 / 9</span></footer>
   </section>
 
   <!-- ===================== EK · SWOT ===================== -->
@@ -554,7 +656,7 @@ tr.tall td{height:40px}
     <p class="note">İç faktörler: S · W &nbsp;|&nbsp; Dış faktörler: O · T. Öncelik: güçlü yanı (ayrı/bağımsız safety yolu) korurken, en kritik zayıflıklar olan <b>uzak erişim sertleştirme</b> ve <b>ağ segmentasyonu</b> önce kapatılmalı.</p>
 
     <div class="evi"><svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M9.5 12h6M9.5 15.5h6"/></svg><span>Bu analizin çıktısı <b>Security Posture (SWOT)</b> → Evidence Pack <b>EP 01 Genel Değerlendirme</b> başlığına oturur.</span></div>
-    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>7 / 7</span></footer>
+    <footer class="foot"><span>SAFETY 4.0 BOOTCAMP · Makine Sürümü · Bu bir eğitim çıktısıdır, resmî denetim değildir.</span><span>9 / 9</span></footer>
   </section>
 
 </div>
